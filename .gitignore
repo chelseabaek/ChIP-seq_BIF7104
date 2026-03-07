@@ -4,4 +4,5 @@
 .httr-oauth
 .DS_Store
 .quarto
-/data
+/data/SRR576933.fastq.gz
+/data/SRR576938.fastq.gz

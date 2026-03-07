@@ -51,14 +51,13 @@ download.file(
   )
 ```
 
-# Escherichia coli str. K-12 substr. MG1655, complete genome (NC_000913.3)
+## Escherichia coli str. K-12 substr. MG1655, complete genome (NC_000913.3)
 ```{r, results='hide',warning=FALSE}
 download.file(
   url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_000913.3&rettype=fasta&retmode=text", 
   destfile = "data/NC_000913.3.fasta", 
   method = "libcurl"
   )
-
 ```
 
 
