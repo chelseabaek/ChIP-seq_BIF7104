@@ -6,3 +6,5 @@
 .quarto
 /data/SRR576933.fastq.gz
 /data/SRR576938.fastq.gz
+/results/bowtie/SRR576933.sam
+/results/bowtie/SRR576938.sam
