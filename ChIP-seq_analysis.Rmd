@@ -6,7 +6,6 @@ output: pdf_document
 ---
 
 # Créer les dossiers
-
 ```{r, results='hide',warning=FALSE}
 dir.create("data")
 dir.create("results")
@@ -16,5 +15,51 @@ dir.create("results/MultiQC")
 dir.create("results/bowtie")
 dir.create("results/MACS")
 ```
+
+# Telecharger les données
+## Experiment (FNR IP ChIP-seq Anaerobic A)
+```{r, results='hide',warning=FALSE}
+if (!file.exists("data/SRR576933.fastq.gz")) {
+  download.file(
+    url = "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR576/SRR576933/SRR576933.fastq.gz",
+    destfile = "data/SRR576933.fastq.gz",
+    method = "libcurl"
+  )
+}
+```
+
+## Control (anaerobic INPUT DNA)
+```{r, results='hide',warning=FALSE}
+
+if (!file.exists("data/SRR576933.fastq.gz")) {
+download.file(
+  url = "ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR576/SRR576938/SRR576938.fastq.gz",
+  destfile = "data/SRR576938.fastq.gz",
+  method = "wget", 
+  extra = "-nc"   
+)
+}
+```
+
+
+## Escherichia coli str. K-12 substr. MG1655, complete genome (NC_000913.2)
+```{r, results='hide',warning=FALSE}
+download.file(
+  url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_000913.2&rettype=fasta&retmode=text", 
+  destfile = "data/NC_000913.2.fasta", 
+  method = "libcurl"
+  )
+```
+
+# Escherichia coli str. K-12 substr. MG1655, complete genome (NC_000913.3)
+```{r, results='hide',warning=FALSE}
+download.file(
+  url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_000913.3&rettype=fasta&retmode=text", 
+  destfile = "data/NC_000913.3.fasta", 
+  method = "libcurl"
+  )
+
+```
+
 
 
