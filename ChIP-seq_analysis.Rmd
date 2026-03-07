@@ -1,0 +1,20 @@
+---
+title: "Untitled"
+author: " "
+date: "2026-03-13"
+output: pdf_document
+---
+
+# Créer les dossiers
+
+```{r, results='hide',warning=FALSE}
+dir.create("data")
+dir.create("results")
+
+dir.create("results/FastQC")
+dir.create("results/MultiQC")
+dir.create("results/bowtie")
+dir.create("results/MACS")
+```
+
+
