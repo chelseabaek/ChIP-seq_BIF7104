@@ -1,0 +1,52 @@
+INFO  @ Mon, 09 Mar 2026 00:49:58: 
+# ARGUMENTS LIST:
+# name = ../../results/MACS/macs2
+# format = BAM
+# ChIP-seq file = ['../../results/MACS/SRR576933.sorted.bam']
+# control file = ['../../results/MACS/SRR576938.sorted.bam']
+# effective genome size = 4.64e+06
+# band width = 400
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+ 
+INFO  @ Mon, 09 Mar 2026 00:49:58: #1 read tag files... 
+INFO  @ Mon, 09 Mar 2026 00:49:58: #1 read treatment tags... 
+INFO  @ Mon, 09 Mar 2026 00:50:03:  1000000 
+INFO  @ Mon, 09 Mar 2026 00:50:08:  2000000 
+INFO  @ Mon, 09 Mar 2026 00:50:13:  3000000 
+INFO  @ Mon, 09 Mar 2026 00:50:15: #1.2 read input tags... 
+INFO  @ Mon, 09 Mar 2026 00:50:19:  1000000 
+INFO  @ Mon, 09 Mar 2026 00:50:23:  2000000 
+INFO  @ Mon, 09 Mar 2026 00:50:26:  3000000 
+INFO  @ Mon, 09 Mar 2026 00:50:31:  4000000 
+INFO  @ Mon, 09 Mar 2026 00:50:35:  5000000 
+INFO  @ Mon, 09 Mar 2026 00:50:39:  6000000 
+INFO  @ Mon, 09 Mar 2026 00:50:41: #1 tag size is determined as 35 bps 
+INFO  @ Mon, 09 Mar 2026 00:50:41: #1 tag size = 35 
+INFO  @ Mon, 09 Mar 2026 00:50:41: #1  total tags in treatment: 2242359 
+INFO  @ Mon, 09 Mar 2026 00:50:41: #1 user defined the maximum tags... 
+INFO  @ Mon, 09 Mar 2026 00:50:41: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Mon, 09 Mar 2026 00:50:41: #1  tags after filtering in treatment: 1099674 
+INFO  @ Mon, 09 Mar 2026 00:50:41: #1  Redundant rate of treatment: 0.51 
+INFO  @ Mon, 09 Mar 2026 00:50:41: #1  total tags in control: 6392930 
+INFO  @ Mon, 09 Mar 2026 00:50:41: #1 user defined the maximum tags... 
+INFO  @ Mon, 09 Mar 2026 00:50:41: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Mon, 09 Mar 2026 00:50:43: #1  tags after filtering in control: 4240230 
+INFO  @ Mon, 09 Mar 2026 00:50:43: #1  Redundant rate of control: 0.34 
+INFO  @ Mon, 09 Mar 2026 00:50:43: #1 finished! 
+INFO  @ Mon, 09 Mar 2026 00:50:43: #2 Build Peak Model... 
+INFO  @ Mon, 09 Mar 2026 00:50:43: #2 Skipped... 
+INFO  @ Mon, 09 Mar 2026 00:50:43: #2 Use 100 as shiftsize, 200 as fragment length 
+INFO  @ Mon, 09 Mar 2026 00:50:43: #3 Call peaks... 
+INFO  @ Mon, 09 Mar 2026 00:50:43: #3 pileup treatment data 
+INFO  @ Mon, 09 Mar 2026 00:50:44: #3 calculate local lambda from control data 
+INFO  @ Mon, 09 Mar 2026 00:50:52: #3 Build score track ... 
+INFO  @ Mon, 09 Mar 2026 00:50:54: #3 Calculate qvalues ... 
+INFO  @ Mon, 09 Mar 2026 00:50:59: #3 Call peaks with given -log10qvalue cutoff: 1.30103 ... 
+INFO  @ Mon, 09 Mar 2026 00:50:59: #4 Write output xls file... ../../results/MACS/macs2_peaks.xls 
+INFO  @ Mon, 09 Mar 2026 00:50:59: #4 Write peak bed file... ../../results/MACS/macs2_peaks.bed 
+INFO  @ Mon, 09 Mar 2026 00:50:59: #4 Write peak in narrowPeak format file... ../../results/MACS/macs2_peaks.encodePeak 
+INFO  @ Mon, 09 Mar 2026 00:50:59: #4 Write summits bed file... ../../results/MACS/macs2_summits.bed 
