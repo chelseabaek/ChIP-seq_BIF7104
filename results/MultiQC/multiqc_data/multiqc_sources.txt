@@ -1,3 +1,0 @@
-Module	Section	Sample Name	Source
-FastQC	all_sections	SRR576933	/Users/chelseabaek/ChIP-seq_BIF7104/results/fastqc/SRR576933_fastqc.zip
-FastQC	all_sections	SRR576938	/Users/chelseabaek/ChIP-seq_BIF7104/results/fastqc/SRR576938_fastqc.zip
