@@ -39,5 +39,6 @@ macs2 callpeak \
 --bw 400 \
 --keep-dup 1 \
 --nomodel \
+--bdg \
 --SPMR \
 &> ../../results/MACS/MACS.out
