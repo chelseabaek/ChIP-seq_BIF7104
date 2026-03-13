@@ -15,8 +15,8 @@
 - scripts/picard/picard.sh
 
 ### Peak Calling
-- scripts/bedtools/consensus.sh
 - scripts/MACS/macs.sh
+- scripts/bedtools/consensus.sh
 - scripts/bedtools/bedtools.sh
 
 ### Peak Annotation
