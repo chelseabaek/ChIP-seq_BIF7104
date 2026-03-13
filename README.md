@@ -1,16 +1,23 @@
+### Genome-wide analysis of FNR in E. coli under anaerobic growth conditions
+- https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE41187
+- download_data.sh
+
 ### Quality Control 
-- fastqc/fastqc.sh
-- multiqc/multiqc.sh
+- scripts/fastqc/fastqc.sh
+- scripts/multiqc/multiqc.sh
 
 ### Read Alignment
-- bowtie/mapping.sh
-- bowtie/prepare_index_file.sh
+- scripts/bowtie/mapping.sh
+- scripts/bowtie/prepare_index_file.sh
 
 ### Mark Duplicates
-- samtools/samtools.sh
-- picard/picard.sh
+- scripts/samtools/samtools.sh
+- scripts/picard/picard.sh
 
 ### Peak Calling
-- bedtools/consensus.sh
-- MACS/macs.sh
-- bedtools/bedtools.sh
+- scripts/bedtools/consensus.sh
+- scripts/MACS/macs.sh
+- scripts/bedtools/bedtools.sh
+
+### Peak Annotation
+
